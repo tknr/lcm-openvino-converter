@@ -1,5 +1,13 @@
 # StableDiffusion Model to LCM OpenVINO converter
 
+## on linux
+
+execute:
+
+`bash install.sh`
+
+## on Windows
+
 Create a venv and install the requirements.
 
 `pip install -r requirements.txt`
@@ -9,6 +17,8 @@ or run `install.bat`
 activate the environment
 
 `env/Scripts/activate`
+
+# LCM conversion
 
 LCM conversion is a two step process.
 
