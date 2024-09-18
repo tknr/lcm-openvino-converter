@@ -9,6 +9,9 @@ from diffusers import (
     AutoPipelineForText2Image,
     LCMScheduler,
 )
+from transformers.utils.hub import move_cache
+
+move_cache()
 
 parser = argparse.ArgumentParser("lcm_convert")
 parser.add_argument("--name", help="Name of the new LCM model", type=str)
